@@ -1,0 +1,43 @@
+/* components/news_tab.wxss */
+.new_tab_image{
+  box-shadow: 5px 9px 24px 1px rgba(128,115,115,0.400000);
+  border-radius: 30rpx;
+  height: 270rpx;
+  width: 690rpx;
+  margin: 24rpx 30rpx 0 30rpx;
+}
+
+.news_tab_imageSize{
+  width: 690rpx;
+  height: 270rpx;
+  border-radius: 30rpx;
+}
+.new_tab_box {
+  width: 605rpx;
+  height: 38rpx;
+  display: flex;
+  margin: 68rpx 0 0 30rpx;
+}
+.new_tab_line {
+  background-color: rgba(20,110,240,1.000000);
+  border-radius: 5rpx;
+  width: 56rpx;
+  height: 6rpx;
+  margin-top: 12rpx;
+}
+
+.news_tab_text{
+  width: 113rpx;
+  height: 29rpx;
+  font-size: 30rpx;
+  white-space: nowrap;
+  line-height: 40rpx;
+  margin-right: 40rpx;
+}
+.news_tab_textClick{
+  width: 113rpx;
+  height: 29rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  padding-right: 40rpx;
+}

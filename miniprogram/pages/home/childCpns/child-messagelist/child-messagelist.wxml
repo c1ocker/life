@@ -1,0 +1,15 @@
+<view class="box1">
+  <view class="box2" wx:for="{{media}}" wx:key="index" bind:tap="handleJump" data-index="{{index}}">
+    <view class="section1">
+      <view class="main5">
+        <text class="infoBox1">{{item.text}}</text>
+        <view class="mod2">
+          <text class="txt4">{{item.time}}</text>
+        </view>
+      </view>
+      <view class="main6">
+        <image src="/assets/home/home_message.png" class="pic2"></image>
+      </view>
+    </view>
+  </view>
+</view>

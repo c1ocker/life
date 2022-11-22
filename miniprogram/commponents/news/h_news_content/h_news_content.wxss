@@ -1,0 +1,52 @@
+/* components/news_content/news_content.wxss */
+.news_content_box1{
+  margin-top: 56rpx;
+}
+
+.news_content_box2 {
+  box-shadow: 0px 0px 38px 0px rgba(235,235,235,1.000000);
+  border-radius: 18rpx;
+  height: 192rpx;
+  display: flex;
+  width: 690rpx;
+  margin-top: 24rpx;
+  margin-left: 30rpx;
+}
+.news_content_box3 {
+  width: 630rpx;
+  height: 132rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 0 0 30rpx;
+}
+.news_content_text1 {
+  width: 407rpx;
+  height: 85rpx;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;/*文字占几行*/
+  -webkit-box-orient: vertical;
+}
+.news_content_text2 {
+  width: 290rpx;
+  height: 20rpx;
+  margin-top: 24rpx;
+  flex-direction: row;
+  display: flex;
+}
+.news_content_time {
+  width: 158rpx;
+  height: 24rpx;
+  color: rgba(152,152,152,1);
+  font-size: 24rpx;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 24rpx;
+}
+
+.news_content_imageSize {
+  width: 132rpx;
+  height: 132rpx;
+}
